@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.teloquitous.lab.one.xposure"
+    android:versionCode="2"
+    android:versionName="0.1.2-alpha" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:debuggable="false"
+        android:theme="@style/Theme.Sherlock.Light" >
+        <activity
+            android:name="com.teloquitous.lab.one.xposure.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.teloquitous.lab.one.xposure.KategoriFragment"
+            android:label="@string/title_activity_kategori" >
+        </activity>
+        <activity
+            android:name="com.teloquitous.lab.one.xposure.PhotosFragment"
+            android:label="@string/title_activity_photos" >
+        </activity>
+        <activity
+            android:name="com.teloquitous.lab.one.xposure.ImageViewerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_image_viewer"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        
+    </application>
+
+</manifest>

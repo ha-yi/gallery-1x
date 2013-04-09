@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhotosFragment" >
+    <ProgressBar
+        android:id="@+id/progressGal"
+        android:layout_width="55dip"
+        android:layout_height="55dip"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:id="@+id/selected_imageview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/gallery_relative_layout" 
+        android:layout_marginBottom="5dp"/>
+
+    <RelativeLayout
+        android:id="@+id/gallery_relative_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/left_arrow_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="30sp"
+            android:text="&lt;"
+            android:layout_marginLeft="15dip" />
+
+        <Gallery
+            android:id="@+id/gallery"
+            android:layout_width="0dip"
+            android:layout_height="150dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_toLeftOf="@+id/right_arrow_imageview"
+            android:layout_toRightOf="@+id/left_arrow_imageview"
+            android:spacing="20dip" />
+
+        <TextView
+            android:id="@+id/right_arrow_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textSize="30sp"
+            android:text="&gt;"
+            android:layout_marginRight="15dip" />
+    </RelativeLayout>
+
+</RelativeLayout>

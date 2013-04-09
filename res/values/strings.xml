@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gallery 1x</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_kategori">KategoriActivity</string>
+    <string name="title_activity_photos">PhotosActivity</string>
+    <string name="title_activity_image_viewer">ImageViewerActivity</string>
+    <string name="loading1">Loading content data&#8230;</string>
+    <string name="loading2">Loading image&#8230;</string>
+    <string name="fail_load_url">Failed to load data.</string>
+    <string name="fail_load_img">Failed to load image.</string>
+    <string name="fail_load_title">Title not available</string>
+    <string name="no_data">No image available in category</string>
+    
+    <string name="judul_menu">Sort</string>
+    <string name="menu_sortby_latest">Latest</string>
+    <string name="menu_sortby_pop_today">Popular Today</string>
+    <string name="menu_sortby_pop_ever">Popular Ever</string>
+    
+
+</resources>

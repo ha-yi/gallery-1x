@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PhotosFragment" >
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="55dip"
+        android:layout_height="55dip"
+        android:layout_centerInParent="true" />
+
+    <GridView
+        android:padding="10dp"
+        android:id="@+id/gridViewPhotos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:horizontalSpacing="5dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="5dp" >
+    </GridView>
+
+    <TextView
+        android:id="@+id/text_data_stat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textIsSelectable="false" />
+
+</RelativeLayout>

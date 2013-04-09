@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="img_all">
+        <item>@drawable/abstract1</item>
+        <item>@drawable/abstract2</item>
+        <item>@drawable/abstract3</item>
+        <item>@drawable/abstract4</item>
+        <item>@drawable/abstract5</item>
+        <item>@drawable/action1</item>
+        <item>@drawable/action2</item>
+        <item>@drawable/action3</item>
+        <item>@drawable/action1</item>
+        <item>@drawable/action2</item>
+        <item>@drawable/action3</item>
+        <item>@drawable/conceptual1</item>
+        <item>@drawable/conceptual2</item>
+        <item>@drawable/conceptual3</item>
+        <item>@drawable/conceptual4</item>
+        <item>@drawable/landscape1</item>
+        <item>@drawable/landscape2</item>
+        <item>@drawable/landscape3</item>
+        <item>@drawable/landscape4</item>
+        <item>@drawable/macro1</item>
+        <item>@drawable/macro2</item>
+        <item>@drawable/macro3</item>
+        <item>@drawable/macro4</item>
+        <item>@drawable/performance1</item>
+        <item>@drawable/performance2</item>
+        <item>@drawable/performance3</item>
+        <item>@drawable/performance4</item>
+    </string-array>
+
+    <string-array name="img_abstract">
+        <item>@drawable/abstract1</item>
+        <item>@drawable/abstract2</item>
+        <item>@drawable/abstract3</item>
+        <item>@drawable/abstract4</item>
+        <item>@drawable/abstract5</item>
+    </string-array>
+    <string-array name="img_action">
+        <item>@drawable/action1</item>
+        <item>@drawable/action2</item>
+        <item>@drawable/action3</item>
+    </string-array>
+    <string-array name="img_architecture">
+        <item>@drawable/architecture1</item>
+        <item>@drawable/architecture2</item>
+        <item>@drawable/architecture3</item>
+        <item>@drawable/architecture4</item>
+    </string-array>
+    <string-array name="img_conceptual">
+        <item>@drawable/conceptual1</item>
+        <item>@drawable/conceptual2</item>
+        <item>@drawable/conceptual3</item>
+        <item>@drawable/conceptual4</item>
+    </string-array>
+    <string-array name="img_creative">
+        <item>@drawable/creative1</item>
+        <item>@drawable/creative2</item>
+        <item>@drawable/creative3</item>
+        <item>@drawable/creative4</item>
+        <item>@drawable/creative5</item>
+    </string-array>
+    <string-array name="img_documentary">
+        <item>@drawable/documentary1</item>
+        <item>@drawable/documentary2</item>
+    </string-array>
+    
+    <string-array name="img_everyday">
+        <item>@drawable/everyday1</item>
+        <item>@drawable/everyday2</item>
+        <item>@drawable/everyday3</item>
+        <item>@drawable/everyday4</item>
+    </string-array>
+    
+    <string-array name="img_humour">
+        <item>@drawable/humour1</item>
+        <item>@drawable/humour2</item>
+        <item>@drawable/humour3</item>
+    </string-array>
+    
+    <string-array name="img_landscape">
+        <item>@drawable/landscape1</item>
+        <item>@drawable/landscape2</item>
+        <item>@drawable/landscape3</item>
+        <item>@drawable/landscape4</item>
+    </string-array>
+    
+    <string-array name="img_macro">
+        <item>@drawable/macro1</item>
+        <item>@drawable/macro2</item>
+        <item>@drawable/macro3</item>
+        <item>@drawable/macro4</item>
+    </string-array>
+    
+    <string-array name="img_mood">
+        <item>@drawable/mood1</item>
+        <item>@drawable/mood2</item>
+    </string-array>
+    
+    <string-array name="img_nature">
+        <item>@drawable/nature1</item>
+        <item>@drawable/nature2</item>
+        <item>@drawable/nature3</item>
+        <item>@drawable/nature4</item>
+    </string-array>
+    
+    <string-array name="img_night">
+        <item>@drawable/night1</item>
+        <item>@drawable/night2</item>
+        <item>@drawable/night3</item>
+        <item>@drawable/night4</item>
+    </string-array>
+    
+    <string-array name="img_performance">
+        <item>@drawable/performance1</item>
+        <item>@drawable/performance2</item>
+        <item>@drawable/performance3</item>
+        <item>@drawable/performance4</item>
+    </string-array>
+    
+    <string-array name="img_portrait">
+        <item>@drawable/portrait1</item>
+        <item>@drawable/portrait2</item>
+        <item>@drawable/portrait3</item>
+        <item>@drawable/portrait4</item>
+    </string-array>
+    
+    <string-array name="img_still_life">
+        <item>@drawable/still1</item>
+        <item>@drawable/still2</item>
+        <item>@drawable/still3</item>
+        <item>@drawable/still4</item>
+    </string-array>
+    
+    <string-array name="img_street">
+        <item>@drawable/street1</item>
+        <item>@drawable/street2</item>
+        <item>@drawable/street3</item>
+        <item>@drawable/street4</item>
+    </string-array>
+    
+    <string-array name="img_underwater">
+        <item>@drawable/underwater1</item>
+        <item>@drawable/underwater2</item>
+        <item>@drawable/underwater3</item>
+        <item>@drawable/underwater4</item>
+    </string-array>
+    
+    <string-array name="arrays_array_img">
+        <item>@array/img_all</item>
+        <item>@array/img_abstract</item>
+        <item>@array/img_action</item>
+        <item>@array/img_architecture</item>
+        <item>@array/img_conceptual</item>
+        <item>@array/img_creative</item>
+        <item>@array/img_documentary</item>
+        <item>@array/img_everyday</item>
+        <item>@array/img_humour</item>
+        <item>@array/img_landscape</item>
+        <item>@array/img_macro</item>
+        <item>@array/img_mood</item>
+        <item>@array/img_nature</item>
+        <item>@array/img_night</item>
+        <item>@array/img_performance</item>
+        <item>@array/img_portrait</item>
+        <item>@array/img_still_life</item>
+        <item>@array/img_street</item>
+        <item>@array/img_underwater</item>
+    </string-array>
+
+</resources>

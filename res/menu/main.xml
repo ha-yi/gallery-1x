@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_menu"
+        android:orderInCategory="0"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_sort_menu"
+        android:title="@string/judul_menu">
+        <menu >
+            <item android:id="@+id/menuSortByLatest"
+                android:title="@string/menu_sortby_latest"/>
+            <item android:id="@+id/menuSortByPopToday"
+                android:title="@string/menu_sortby_pop_today"/>
+            <item android:id="@+id/menuSortByPopEver"
+                android:title="@string/menu_sortby_pop_ever"/>
+        </menu>
+    </item>
+
+</menu>

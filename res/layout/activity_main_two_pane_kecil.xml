@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ad_lay"
+        android:orientation="horizontal" >
+
+        <fragment
+            android:id="@+id/fragment_kategori"
+            android:name="com.teloquitous.lab.one.xposure.KategoriFragment"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="10dp"
+            tools:layout="@layout/fragment_kategori" />
+
+        <fragment
+            android:id="@+id/fragment_photos"
+            android:name="com.teloquitous.lab.one.xposure.PhotosFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            tools:layout="@layout/fragment_photos" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ad_lay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</RelativeLayout>
