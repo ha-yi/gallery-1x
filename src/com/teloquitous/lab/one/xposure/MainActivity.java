@@ -1,22 +1,14 @@
 package com.teloquitous.lab.one.xposure;
 
-import java.util.HashSet;
-import java.util.Set;
-
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
-import android.view.View;
-import android.widget.LinearLayout;
 
 import com.actionbarsherlock.app.ActionBar;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuInflater;
 import com.actionbarsherlock.view.MenuItem;
-import com.google.ads.AdRequest;
-import com.google.ads.AdSize;
-import com.google.ads.AdView;
 import com.google.analytics.tracking.android.EasyTracker;
 import com.teloquitous.lab.one.xposure.mukamuka.GantiKategoriListener;
 
@@ -29,38 +21,11 @@ public class MainActivity extends SherlockFragmentActivity implements
 	private int sort = 0;
 	private int kategori = 0;
 
-	private static String AD_UNIT_ID = "a1516086a2a6956";
-	private static String TEST_DEV_ID = "4E97CEC0C5D5679015F7FD8E10CE8268";
-	private static String ANALYTIC_ID = "UA-39360933-3";
-//	private AdView iklan;
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main_layout);
 		Log.d("MAIN", "on start");
-		
-//		iklan = new AdView(this, AdSize.SMART_BANNER, AD_UNIT_ID);
-//		LinearLayout lay = (LinearLayout) findViewById(R.id.ad_lay);
-//		lay.addView(iklan);
-
-//		AdRequest ar = new AdRequest();
-////		ar.addTestDevice(AdRequest.TEST_EMULATOR); // Emulator
-////		ar.addTestDevice(TEST_DEV_ID);
-//		Set<String> set = new HashSet<String>();
-//		set.add("photo");
-//		set.add("gallery");
-//		set.add("photography");
-//		set.add("camera");
-//		set.add("wallpaper");
-//		set.add("image");
-//		set.add("effect");
-//		set.add("photo");
-//		
-//
-//		ar.setKeywords(set);
-//		iklan.loadAd(ar);
-//		iklan.setVisibility(View.VISIBLE);
 
 		abar = getSupportActionBar();
 		mCallback = this;
